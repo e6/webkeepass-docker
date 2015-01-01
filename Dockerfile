@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04
 MAINTAINER James Jones "velocity303@gmail.com"
 RUN echo 'APT::Install-Recommends "0";' >> /etc/apt/apt.conf
 RUN echo 'APT::Install-Suggests "0";' >> /etc/apt/apt.conf
